@@ -1683,10 +1683,7 @@ local UITab9 = window:Tab("功能",'')
 local UITab2 = window:Tab("功能",'') 
 
 local about2 = UITab1:section("功能", false)
-local trackingEnabled = false
-local connections = {}
 
 about2:Button("功能", "", false, function(state)
 loadstring(game:HttpGet("https://pastebin.com/raw/J9PbZFVP", true))()
-
 end)
