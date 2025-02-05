@@ -1682,8 +1682,9 @@ local UITab3 = window:Tab("功能",'')
 local UITab9 = window:Tab("功能",'')
 local UITab2 = window:Tab("功能",'') 
 
-local about2 = UITab1:section("功能", false)
+local about2 = UITab1:section("飞行功能", false)
 
-about2:Button("功能", "", false, function(state)
+about2:Button("飞行", "", false, function(state)
 loadstring(game:HttpGet("https://pastebin.com/raw/J9PbZFVP", true))()
+		
 end)
